@@ -18,8 +18,8 @@ public class Edades {
 		String  rango = (edad < 13) ? "Eres un niño/a":
 						(edad >= 13 && edad < 18) ? "Eres un adolescente":
 						(edad >= 18 && edad < 65 ) ?  "Eres un adulto":
-						(edad > 65) ? "Eres una persona mayor":
-							" ";			
+													 "Eres una persona mayor";
+									
 						System.out.println(rango);
 			
 		
@@ -28,5 +28,6 @@ public class Edades {
 		
 		
 	}
+
 
 
